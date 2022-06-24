@@ -101,7 +101,7 @@ if __name__ == '__main__':
     ######################################################################
 
     # pretrained model, ckpt dir
-    pretrained_weights = '/home/projects/yonina/arielkes/amitaf/dino-vit-features/dino_deitsmall8_pretrain_full_checkpoint.pth'
+    pretrained_weights = '/home/projects/yonina/arielkes/amitaf/Sampl_Dino/dino_deitsmall8_pretrain_full_checkpoint.pth'
 
     # Vit architecture.  choices=['vit_tiny', 'vit_small', 'vit_base']
     arch = 'vit_small'
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     checkpoint_key = "student"
 
     # Path of the image to load
-    image_path = "/home/projects/yonina/arielkes/amitaf/dino-vit-features/images/cat.jpg"
+    image_path = "/home/projects/yonina/arielkes/amitaf/Sampl_Dino/images/cat.jpg"
 
     # Resize image.
     image_size = (480, 480)

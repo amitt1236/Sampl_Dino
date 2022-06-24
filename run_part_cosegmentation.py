@@ -9,15 +9,15 @@ from part_cosegmentation import find_part_cosegmentation, draw_part_cosegmentati
 model_type = 'dino_vits8'
 
 # pretrained model
-model_dir = "/home/projects/yonina/arielkes/amitaf/dino-vit-features/dino_deitsmall8_pretrain_full_checkpoint.pth"
+model_dir = "/home/projects/yonina/arielkes/amitaf/Sampl_Dino/dino_deitsmall8_pretrain_full_checkpoint.pth"
 
 # head: chose between teacher and student networks
 head = "student"
 ######################################################################
 
 # Choose image paths:
-images_paths = ['/home/projects/yonina/arielkes/amitaf/dino-vit-features/images/cat.jpg',
-                '/home/projects/yonina/arielkes/amitaf/dino-vit-features/images/ibex.jpg']  # @param
+images_paths = ['/home/projects/yonina/arielkes/amitaf/Sampl_Dino/images/cat.jpg',
+                '/home/projects/yonina/arielkes/amitaf/Sampl_Dino/images/ibex.jpg']  # @param
 
 # load_size: size of the smaller edge of loaded images. If None, does not resize.
 load_size = 360
